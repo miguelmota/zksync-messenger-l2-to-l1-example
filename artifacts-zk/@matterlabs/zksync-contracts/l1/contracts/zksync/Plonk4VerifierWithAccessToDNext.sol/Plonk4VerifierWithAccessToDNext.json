@@ -1,0 +1,1734 @@
+{
+  "_format": "hh-zksolc-artifact-1",
+  "contractName": "Plonk4VerifierWithAccessToDNext",
+  "sourceName": "@matterlabs/zksync-contracts/l1/contracts/zksync/Plonk4VerifierWithAccessToDNext.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "zero",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "alpha",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "gamma",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[9]",
+              "name": "alpha_values",
+              "type": "tuple[9]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "eta",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_lookup",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "gamma_lookup",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_plus_one",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_gamma",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "v",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "u",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z_minus_last_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "l_0_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "l_n_minus_one_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "t",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "tp",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct Plonk4VerifierWithAccessToDNext.PartialVerifierState",
+          "name": "state",
+          "type": "tuple"
+        }
+      ],
+      "name": "compute_powers_of_alpha",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "domain_size",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "num_inputs",
+              "type": "uint256"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[2]",
+              "name": "gate_selectors_commitments",
+              "type": "tuple[2]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[8]",
+              "name": "gate_setup_commitments",
+              "type": "tuple[8]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "permutation_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_selector_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "lookup_tables_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_table_type_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[3]",
+              "name": "non_residues",
+              "type": "tuple[3]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256[2]",
+                  "name": "X",
+                  "type": "uint256[2]"
+                },
+                {
+                  "internalType": "uint256[2]",
+                  "name": "Y",
+                  "type": "uint256[2]"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G2Point[2]",
+              "name": "g2_elements",
+              "type": "tuple[2]"
+            }
+          ],
+          "internalType": "struct VerificationKey",
+          "name": "vk",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "input_values",
+              "type": "uint256[]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "state_polys_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "copy_permutation_grand_product_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "quotient_poly_parts_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[4]",
+              "name": "state_polys_openings_at_z",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[1]",
+              "name": "state_polys_openings_at_z_omega",
+              "type": "tuple[1]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[1]",
+              "name": "gate_selectors_openings_at_z",
+              "type": "tuple[1]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[3]",
+              "name": "copy_permutation_polys_openings_at_z",
+              "type": "tuple[3]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "copy_permutation_grand_product_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "quotient_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "linearization_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_s_poly_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_grand_product_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_s_poly_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_grand_product_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_t_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_t_poly_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_selector_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_table_type_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "opening_proof_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "opening_proof_at_z_omega",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct Plonk4VerifierWithAccessToDNext.Proof",
+          "name": "proof",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "zero",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "alpha",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "gamma",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[9]",
+              "name": "alpha_values",
+              "type": "tuple[9]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "eta",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_lookup",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "gamma_lookup",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_plus_one",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_gamma",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "v",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "u",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z_minus_last_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "l_0_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "l_n_minus_one_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "t",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "tp",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct Plonk4VerifierWithAccessToDNext.PartialVerifierState",
+          "name": "state",
+          "type": "tuple"
+        }
+      ],
+      "name": "prepare_queries",
+      "outputs": [
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[13]",
+              "name": "commitments_at_z",
+              "type": "tuple[13]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[13]",
+              "name": "values_at_z",
+              "type": "tuple[13]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[6]",
+              "name": "commitments_at_z_omega",
+              "type": "tuple[6]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[6]",
+              "name": "values_at_z_omega",
+              "type": "tuple[6]"
+            }
+          ],
+          "internalType": "struct Plonk4VerifierWithAccessToDNext.Queries",
+          "name": "queries",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "domain_size",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "num_inputs",
+              "type": "uint256"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[2]",
+              "name": "gate_selectors_commitments",
+              "type": "tuple[2]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[8]",
+              "name": "gate_setup_commitments",
+              "type": "tuple[8]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "permutation_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_selector_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "lookup_tables_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_table_type_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[3]",
+              "name": "non_residues",
+              "type": "tuple[3]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256[2]",
+                  "name": "X",
+                  "type": "uint256[2]"
+                },
+                {
+                  "internalType": "uint256[2]",
+                  "name": "Y",
+                  "type": "uint256[2]"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G2Point[2]",
+              "name": "g2_elements",
+              "type": "tuple[2]"
+            }
+          ],
+          "internalType": "struct VerificationKey",
+          "name": "vk",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint256[]",
+              "name": "input_values",
+              "type": "uint256[]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "state_polys_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "copy_permutation_grand_product_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point[4]",
+              "name": "quotient_poly_parts_commitments",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[4]",
+              "name": "state_polys_openings_at_z",
+              "type": "tuple[4]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[1]",
+              "name": "state_polys_openings_at_z_omega",
+              "type": "tuple[1]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[1]",
+              "name": "gate_selectors_openings_at_z",
+              "type": "tuple[1]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[3]",
+              "name": "copy_permutation_polys_openings_at_z",
+              "type": "tuple[3]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "copy_permutation_grand_product_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "quotient_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "linearization_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_s_poly_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "lookup_grand_product_commitment",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_s_poly_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_grand_product_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_t_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_t_poly_opening_at_z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_selector_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "lookup_table_type_poly_opening_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "opening_proof_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "opening_proof_at_z_omega",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct Plonk4VerifierWithAccessToDNext.Proof",
+          "name": "proof",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "zero",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "alpha",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "gamma",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr[9]",
+              "name": "alpha_values",
+              "type": "tuple[9]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "eta",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_lookup",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "gamma_lookup",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_plus_one",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "beta_gamma",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "v",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "u",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "z_minus_last_omega",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "l_0_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "l_n_minus_one_at_z",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.Fr",
+              "name": "t",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "X",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "Y",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct PairingsBn254.G1Point",
+              "name": "tp",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct Plonk4VerifierWithAccessToDNext.PartialVerifierState",
+          "name": "state",
+          "type": "tuple"
+        }
+      ],
+      "name": "rescue_custom_gate_linearization_contribution",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "X",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "Y",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct PairingsBn254.G1Point",
+          "name": "result",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x000200000000000200010000000103550000006001100270000002a00010019d0000000101200190000000070000c13d0a7b00430000040f0a7b00330000040f0001000000000002000100000005001d000000c001100210000002a1011001970000004003300210000002a203300197000000000113019f0000006003400210000002a303300197000000000131019f0a7b0a760000040f0000000106000029000000000300001900000005043002100000000005460019000000000441034f000000000404043b00000000004504350000000103300039000000020430008c000000150000413d000000010120018f0000000100000005000000000001042d000002a40100004100008002020000390a7b0a760000040f0000000102200190000000270000613d000000000101043b000000000001042d00000000010000190a7b00300000040f0000004001100210000002a20110019700000000013100190000006002200210000002a302200197000000000121001900000a7c0001042e0000006001100210000002a30110019700000a7d000104300000008001000039000000400200003900000000001204350000000001000416000000000110004c000000410000c13d000000200200003900000100010000390000000000210439000001200200003900000000000204390000004002000039000002a5030000410a7b00290000040f00000000010000190a7b00300000040f00060000000000020000000001000410000080020210008c000000550000613d0000000002000411000080010220008c000000550000613d000002a6020000410000000000200439000000040200003900000000001204390a7b00200000040f000000000110004c000000550000c13d0000000001000019000000000200001900000000030000190a7b00290000040f0000008001000039000000400300003900000000001304350000000001000031000000040110008c000000d00000413d0000000101000367000000000101043b000000e001100270000002a70210009c000000660000613d000002a80210009c000000650000613d000002a90110009c000000d00000c13d0a7b07a80000040f0a7b06060000040f0000000001000416000000000110004c000000d00000c13d0000000001000031000200000003001d0a7b01bf0000040f000100000001001d000600000002001d000300000003001d0a7b09690000040f0a7b09740000040f0a7b09740000040f00000006020000290000008002200039000600000002001d00000000020204330000000002020433000500000001001d00000000010200190a7b09830000040f000400000001001d00000000020100190a7b09ae0000040f000000060100002900000000010104330000002001100039000000000201043300000004010000290a7b09990000040f00000003010000290000008001100039000300000001001d00000000010104330000002001100039000000000201043300000004010000290a7b09ae0000040f000000050100002900000004020000290a7b098f0000040f00000006010000290000000001010433000000200110003900000000010104330a7b09830000040f000400000001001d00000000020100190a7b09ae0000040f000000060100002900000000010104330000004001100039000000000201043300000004010000290a7b09990000040f000000030100002900000000010104330000004001100039000000000201043300000004010000290a7b09ae0000040f000000050100002900000004020000290a7b098f0000040f00000006010000290000000001010433000000400110003900000000010104330a7b09830000040f000000060200002900000000020204330000000002020433000400000001001d0a7b09ae0000040f000000060100002900000000010104330000006001100039000000000201043300000004010000290a7b09990000040f000000030100002900000000010104330000006001100039000000000201043300000004010000290a7b09ae0000040f000000050100002900000004020000290a7b098f0000040f0000000101000029000000600110003900000000010104330000002001100039000000000101043300000005020000290a7b09b80000040f00000002020000290000000003020433000600000003001d000000000201001900000000010300190a7b05c10000040f00000006030000290000000002310049000000000103001900000000030000190a7b00290000040f00000000010000190a7b00300000040f000002aa01000041000000000010043500000041010000390000000402000039000000000012043500000024010000390a7b00300000040f000000440110008a000002ab020000410000001f0310008c00000000030000190000000003022019000002ab01100197000000000410004c0000000002008019000002ab0110009c00000000010300190000000001026019000000000110004c000000f10000613d00000040020000390000000001020433000002ac0310009c000000f30000813d0000002003100039000000000032043500000044020000390000000102200367000000000202043b0000000000210435000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000000002120049000002ab030000410000001f0420008c00000000040000190000000004032019000002ab02200197000000000520004c0000000003008019000002ab0220009c00000000020400190000000002036019000000000220004c0000010c0000613d00000040030000390000000002030433000002ac0420009c0000010e0000813d000000200420003900000000004304350000000101100367000000000101043b00000000001204350000000001020019000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000000002120049000002ab030000410000003f0420008c00000000040000190000000004032019000002ab02200197000000000520004c0000000003008019000002ab0220009c00000000020400190000000002036019000000000220004c0000012c0000613d00000040030000390000000002030433000002ad0420009c0000012e0000813d000000400420003900000000004304350000000103100367000000000303043b000000000032043500000020011000390000000101100367000000000101043b000000200320003900000000001304350000000001020019000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f000500000000000200000000070100190000001f01700039000002ab06000041000000000321004b00000000030000190000000003064019000300000002001d000002ab04200197000002ab01100197000000000541004b00000000020000190000000002062019000000000141013f000002ab0110009c00000000010300190000000001026019000000000110004c000001610000613d00000040010000390000000003010433000002ae0230009c000001630000813d0000008002300039000000000021043500000100027000390000000301000029000200000002001d000000000112004b000001610000213d0000000002030019000100000003001d0000000201000029000000000117004b0000015e0000813d0000000001070019000400000002001d0000000302000029000500000007001d0a7b010f0000040f0000000402000029000000010300002900000005070000290000000000120435000000400770003900000020022000390000014f0000013d00000000010300190000000500000005000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000001f03100039000002ab04000041000000000523004b00000000050000190000000005044019000002ab06200197000002ab03300197000000000763004b000000000400a019000000000363013f000002ab0330009c00000000030500190000000003046019000000000330004c000001870000613d00000040040000390000000003040433000002ad0530009c000001890000813d000000400530003900000000005404350000004004100039000000000224004b000001870000213d0000000002030019000000000541004b000001850000813d0000000105100367000000000505043b0000000000520435000000200110003900000020022000390000017d0000013d0000000001030019000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f000500000000000200000000070100190000001f01700039000002ab06000041000000000321004b00000000030000190000000003064019000300000002001d000002ab04200197000002ab01100197000000000541004b00000000020000190000000002062019000000000141013f000002ab0110009c00000000010300190000000001026019000000000110004c000001bc0000613d00000040010000390000000003010433000002ac0230009c000001be0000813d0000002002300039000000000021043500000020027000390000000301000029000200000002001d000000000112004b000001bc0000213d0000000002030019000100000003001d0000000201000029000000000117004b000001b90000813d0000000001070019000400000002001d0000000302000029000500000007001d0a7b00f40000040f000000040200002900000001030000290000000507000029000000000012043500000020077000390000002002200039000001aa0000013d00000000010300190000000500000005000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f000a000000000002000a00000001001d000000040110008a000002ab0200004100000a5f0310008c00000000030000190000000003022019000002ab01100197000000000410004c0000000002008019000002ab0110009c00000000010300190000000001026019000000000110004c000005be0000613d00000040030000390000000001030433000200000001001d000002af0110009c000005c00000813d00000002020000290000016001200039000000000013043500000004010000390000000101100367000000000101043b000000000012043500000024010000390000000101100367000000000101043b000000200220003900000000001204350000000a01000029000900000003001d0a7b00d90000040f0000000906000029000002ab020000410000000a04000029000000840340008c00000000030000190000000003024019000002ab04400197000000000540004c000000000200a019000002ab0440009c000000000203c019000000020300002900000040033000390000000000130435000000000120004c000005be0000c13d0000000002060433000002b00120009c000005c00000213d00000002010000290000006001100039000500000001001d0000004001200039000000000016043500000064030000390000000004020019000600000002001d000000e30130008c0000020c0000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000040033000390000002004400039000001fd0000013d00000005010000290000000000210435000002ab010000410000000a03000029000001040230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b10120009c000005c00000213d000001000120003900000000001604350000000a01000029000002e40110008c000005be0000413d00000002010000290000008001100039000500000001001d000000e4030000390000000004020019000600000002001d000002e30130008c000002370000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000040033000390000002004400039000002280000013d00000005010000290000000000210435000002ab010000410000000a03000029000003040230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b20120009c000005c00000213d000000800120003900000000001604350000000a01000029000003e40110008c000005be0000413d0000000201000029000000a001100039000500000001001d000002e4030000390000000004020019000600000002001d000003e30130008c000002620000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000040033000390000002004400039000002530000013d000000050100002900000000002104350000000a01000029000003e40110008a000002ab02000041000000400310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c000005be0000c13d0000000001060433000002b00210009c000005c00000213d0000000202000029000000c00220003900000040031000390000000000360435000003e4030000390000000103300367000000000303043b000000000031043500000404030000390000000103300367000000000303043b000000200410003900000000003404350000000000120435000002ab010000410000000a03000029000004440230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b20120009c000005c00000213d000000800120003900000000001604350000000a01000029000005240110008c000005be0000413d0000000201000029000000e001100039000500000001001d00000424030000390000000004020019000600000002001d000005230130008c000002ac0000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f00000007040000290000000803000029000000060200002900000009060000290000000000140435000000400330003900000020044000390000029d0000013d000000050100002900000000002104350000000a01000029000005240110008a000002ab02000041000000400310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c000005be0000c13d0000000001060433000002b00210009c000005c00000213d000000020200002900000100022000390000004003100039000000000036043500000524030000390000000103300367000000000303043b000000000031043500000544030000390000000103300367000000000303043b000000200410003900000000003404350000000000120435000002ab010000410000000a03000029000005840230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b30120009c000005c00000213d000000600120003900000000001604350000000a01000029000005c40110008c000005be0000413d00000002010000290000012001100039000500000001001d00000564030000390000000004020019000600000002001d000005c30130008c000002f60000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b00f40000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000020033000390000002004400039000002e70000013d00000005010000290000000000210435000002ab010000410000000a03000029000005e40230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000001060433000500000001001d000002b00110009c000005c00000213d0000000501000029000000400110003900000000001604350000000a01000029000006c40110008c000005be0000413d00000002010000290000014001100039000400000001001d000005c4050000390000000506000029000006c30150008c0000033e0000213d0000000a010000290000000001510049000002ab02000041000000800310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c0000000902000029000005be0000c13d000600000006001d0000000003020433000002b00130009c000005c00000213d0000004001300039000000000012043500000000010500190000000a02000029000800000005001d000700000003001d0a7b01640000040f00000007020000290000000000120435000000080100002900000040011000390000000a020000290a7b01640000040f00000008050000290000000703000029000000200230003900000000001204350000000606000029000000000036043500000080055000390000002006600039000003130000013d000000050100002900000004020000290000000000120435000006c4010000390000000101100367000000000a01043b000002b401a0009c0000000909000029000005be0000213d0000000402a000390000000a010000290000000001210049000002ab03000041000005a00410008c00000000040000190000000004034019000002ab01100197000000000510004c000000000300a019000002ab0110009c00000000010400190000000001036019000000000110004c000005be0000c13d0000000001090433000400000001001d000002b50110009c000005c00000213d0000000401000029000002a00110003900000000001904350000000103000367000000000423034f000000000404043b000002b40540009c000005be0000213d00000000022400190000001f04200039000002ab050000410000000a07000029000000000674004b00000000060000190000000006058019000002ab04400197000002ab07700197000000000874004b0000000005008019000000000474013f000002ab0440009c00000000040600190000000004056019000000000440004c000005be0000c13d000000000323034f000000000303043b000002b40430009c000005c00000213d00000005043002100000003f05400039000000200600008a000000000565016f0000000005150019000002b40650009c000005c00000213d00000000005904350000000000310435000000000342001900000020033000390000000a04000029000000000443004b000005be0000213d00000000040100190000002002200039000000000532004b0000038e0000813d0000000105200367000000000505043b00000020044000390000000000540435000003860000013d000000040200002900000000001204350000002401a000390000000a0200002900030000000a001d0a7b012f0000040f000000040200002900000020022000390000000000120435000000030100002900000124011000390000000a020000290a7b010f0000040f000000040200002900000040022000390000000000120435000000030100002900000164011000390000000a020000290a7b012f0000040f000000030800002900000009070000290000028302800039000002ab030000410000000a05000029000000000452004b00000000040000190000000004038019000002ab05500197000002ab02200197000000000652004b0000000003008019000000000252013f000002ab0220009c00000000020400190000000002036019000000040300002900000060033000390000000000130435000000000120004c000005be0000c13d0000000002070433000002b20120009c000005c00000213d00000080012000390000000000170435000002e4038000390000000a01000029000600000003001d000000000113004b000005be0000213d000002640380003900000004010000290000008001100039000100000001001d0000000004020019000500000002001d0000000601000029000000000113004b000003d60000813d00000000010300190000000a02000029000800000003001d000700000004001d0a7b00f40000040f000000070400002900000008030000290000000502000029000000000014043500000020033000390000002004400039000003c70000013d0000000101000029000000000021043500000006010000290000000a020000290a7b018a0000040f0000000402000029000000a0022000390000000000120435000000030100002900000304011000390000000a020000290a7b018a0000040f00000003060000290000000402000029000000c00220003900000000001204350000034301600039000002ab020000410000000a04000029000000000341004b00000000030000190000000003028019000002ab04400197000002ab01100197000000000541004b0000000002008019000000000141013f000002ab0110009c00000000010300190000000001026019000000000110004c0000000902000029000005be0000c13d0000000003020433000002b30130009c000005c00000213d0000006001300039000000000012043500000384026000390000000a01000029000600000002001d000000000112004b000005be0000213d00000324026000390000000004030019000500000003001d0000000601000029000000000112004b000004130000813d0000000001020019000800000002001d0000000a02000029000700000004001d0a7b00f40000040f000000070400002900000008020000290000000503000029000000000014043500000020022000390000002004400039000004040000013d0000000401000029000000e001100039000000000031043500000006010000290000000a020000290a7b00f40000040f0000000402000029000001000220003900000000001204350000000301000029000003a4011000390000000a020000290a7b00f40000040f0000000402000029000001200220003900000000001204350000000301000029000003c4011000390000000a020000290a7b00f40000040f0000000402000029000001400220003900000000001204350000000301000029000003e4011000390000000a020000290a7b010f0000040f000000040200002900000160022000390000000000120435000000030100002900000424011000390000000a020000290a7b010f0000040f000000040200002900000180022000390000000000120435000000030100002900000464011000390000000a020000290a7b00f40000040f0000000402000029000001a0022000390000000000120435000000030100002900000484011000390000000a020000290a7b00f40000040f0000000402000029000001c00220003900000000001204350000000301000029000004a4011000390000000a020000290a7b00f40000040f0000000402000029000001e00220003900000000001204350000000301000029000004c4011000390000000a020000290a7b00f40000040f0000000402000029000002000220003900000000001204350000000301000029000004e4011000390000000a020000290a7b00f40000040f000000040200002900000220022000390000000000120435000000030100002900000504011000390000000a020000290a7b00f40000040f000000040200002900000240022000390000000000120435000000030100002900000524011000390000000a020000290a7b010f0000040f000000040200002900000260022000390000000000120435000000030100002900000564011000390000000a020000290a7b010f0000040f0000000a02000029000006e40220008a000002ab03000041000003800420008c00000000040000190000000004034019000002ab02200197000000000520004c000000000300a019000002ab0220009c00000000020400190000000002036019000000040300002900000280033000390000000000130435000000000120004c0000000905000029000005be0000c13d0000000004050433000002b60140009c000005c00000213d00000260014000390000000000150435000002b70240009c000005c00000213d00000280024000390000000000250435000006e4020000390000000102200367000000000202043b000000000021043500000000001404350000000001050433000002b80210009c000005c00000213d0000002002100039000000000025043500000704020000390000000102200367000000000202043b0000000000210435000000200240003900000000001204350000000001050433000002b80210009c000005c00000213d0000002002100039000000000025043500000724020000390000000102200367000000000202043b0000000000210435000000400240003900000000001204350000000001050433000002b80210009c000005c00000213d0000002002100039000000000025043500000744020000390000000102200367000000000202043b000000000021043500000060024000390000000000120435000002ab010000410000000a03000029000007840230008c00000000020000190000000002014019000002ab03300197000500000004001d000000000430004c0000000504000029000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002050433000002b90120009c000005c00000213d0000008001400039000300000001001d0000012001200039000000000015043500000764030000390000000004020019000600000002001d000008830130008c000004d50000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b00f40000040f0000000704000029000000080300002900000006020000290000000905000029000000000014043500000020033000390000002004400039000004c60000013d000000030100002900000000002104350000000a01000029000008840110008a000002ab02000041000000200310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c0000000504000029000005be0000c13d0000000001050433000002b80210009c000005c00000213d000000a0024000390000002003100039000000000035043500000884030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000008a40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000000c00240003900000020031000390000000000350435000008a4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000008c40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000000e00240003900000020031000390000000000350435000008c4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000008e40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001000240003900000020031000390000000000350435000008e4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009040110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000120024000390000002003100039000000000035043500000904030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009240110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000140024000390000002003100039000000000035043500000924030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009440110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000160024000390000002003100039000000000035043500000944030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009640110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000180024000390000002003100039000000000035043500000964030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009840110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001a0024000390000002003100039000000000035043500000984030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009a40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001c00240003900000020031000390000000000350435000009a4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009c40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001e00240003900000020031000390000000000350435000009c4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009e40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000002000240003900000020031000390000000000350435000009e4030000390000000103300367000000000303043b000000000031043500000000001204350000000a0100002900000a040110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000220024000390000002003100039000000000035043500000a04030000390000000103300367000000000303043b000000000031043500000000001204350000000a0100002900000a240110008a000000400110008c000005be0000413d0000000001050433000002b00210009c000005c00000213d0000004002100039000000000025043500000a24020000390000000102200367000000000202043b000000000021043500000a44020000390000000102200367000000000202043b00000020031000390000000000230435000002400240003900000000001204350000000201000029000000040200002900000000030400190000000a00000005000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000000003020433000000000031043500000020022000390000000002020433000000200310003900000000002304350000004001100039000000000001042d0000000003020433000000000401001900000000050000190000000c0650008c000005d90000213d0000000006030433000000000706043300000000007404350000002006600039000000000606043300000020074000390000000000670435000000010550003900000020033000390000004004400039000005cc0000013d00000340031000390000002004200039000000000404043300000000050000190000000c0650008c000005e60000213d000000000604043300000000060604330000000000630435000000010550003900000020044000390000002003300039000005dd0000013d000004e003100039000000400420003900000000040404330000000005000019000000050650008c000005f70000213d0000000006040433000000000706043300000000007304350000002006600039000000000606043300000020073000390000000000670435000000010550003900000020044000390000004003300039000005ea0000013d0000066003100039000000600220003900000000020204330000000004000019000000050540008c000006040000213d000000000502043300000000050504330000000000530435000000010440003900000020022000390000002003300039000005fb0000013d0000072001100039000000000001042d000e0000000000020000000001000416000000000110004c0000072a0000c13d00000000010000310a7b01bf0000040f000400000001001d000500000002001d000000400c000039000000000b0c0433000002ae01b0009c000006c30000813d0000008001b0003900000000001c0435000002ba0210009c000006c30000213d0000022002b0003900000000002c043500000000020000190000019f0420008c000006270000213d00000000040c0433000002b00540009c000006c30000213d000000400540003900000000005c0435000000200540003900000000000504350000000000040435000000000512001900000000004504350000002002200039000006190000013d00000000001b043500000000010c0433000002ba0210009c000006c30000213d000001a00210003900000000002c043500000000020000190000019f0420008c0000063a0000213d00000000040c0433000002b80540009c000006c30000213d000000200540003900000000005c043500000000000404350000000005120019000000000045043500000020022000390000062e0000013d000000200db0003900000000001d043500000000010c0433000002bb0210009c000006c30000213d000000c00210003900000000002c04350000000002000019000000bf0420008c000006500000213d00000000040c0433000002b00540009c000006c30000213d000000400540003900000000005c0435000000200540003900000000000504350000000000040435000000000512001900000000004504350000002002200039000006420000013d0000004002b00039000300000002001d000000000012043500000000010c0433000002bb0210009c000006c30000213d000000c00210003900000000002c04350000000002000019000000bf0420008c000006650000213d00000000040c0433000002b80540009c000006c30000213d000000200540003900000000005c04350000000000040435000000000512001900000000004504350000002002200039000006590000013d000000600eb0003900000000001e04350000000202000039000000050100002900000080041000390000002001100039000000000500001900000000060b0433000000030750008c0000067f0000213d000000050720021000000000067600190000000008010433000000050950021000000000089800190000000008080433000000000086043500000000060d043300000000067600190000000007040433000000000797001900000000070704330000000000760435000000010550003900000001022000390000066c0000013d0000000407000029000000600270003900000000020204330000000002020433000000c00460003900000000002404350000000505000029000000c0025000390000000002020433000000000202043300000000040d0433000000c00440003900000000002404350000000702000039000000e004500039000000a0057000390000000006000019000000020760008c000006a30000213d00000000070b0433000000050820021000000000078700190000000009050433000000050a6002100000000009a900190000000009090433000000000097043500000000070d0433000000000787001900000000080404330000000008a800190000000008080433000000000087043500000001066000390000000102200039000006900000013d0000000505000029000000400250003900000000020204330000000306000029000000000406043300000000002404350000000001010433000000600110003900000000010104330000000002060433000000200220003900000000001204350000010001500039000000000101043300000000020e04330000000000120435000000a0015000390000000001010433000000000101043300020000000e001d00000000020e0433000000200220003900000000001204350000000401000029000000e001100039000c00000001001d0000000001010433000000000401043300000000010c0433000e00000001001d000002b80110009c000006c40000a13d0a7b00d20000040f00010000000d001d000000a001300039000700000001001d00000000010104330000000e05000029000000200250003900060000000c001d00000000002c04350000000000050435000000000101043300000000001504350000000102000039000b00000004001d0000002001400039000900000001001d0000024001300039000800000001001d000a0000000b001d000000040120008c0000072c0000813d000d00000002001d00000005012002100000000c020000290000000002020433000000000112001900000000010104330000000e020000290a7b09b80000040f000000080200002900000000001204350000000003010433000000000230004c000006e90000c13d00000020021000390000000002020433000000000220004c000007150000613d00000020021000390000000b050000290000000004050433000000000440004c0000000909000029000006f20000c13d0000000004090433000000000440004c0000071a0000613d00000006060000290000000003060433000002b20430009c000006c30000213d0000008004300039000000000046043500000000040000310000000104400367000000000800001900000005068002100000000007630019000000000664034f000000000606043b00000000006704350000000108800039000000040680008c000006fb0000413d000000000405043300000000004304350000000004090433000000200630003900000000004604350000004004300039000000000101043300000000001404350000000001020433000000600230003900000000001204350000000001000414000000060200003900000080040000390a7b00080000040f000000000110004c0000071d0000c13d0000072a0000013d0000000b050000290000000003050433000000090900002900000000020900190000071a0000013d0000000000350435000000000102043300000000001904350000000701000029000000000101043300000000020104330000000e010000290000000001010433000002bc030000410a7b0a680000040f0000000e0200002900000000001204350000000d0200002900000001022000390000000a0b000029000006d60000013d00000000010000190a7b00300000040f00000000010b0433000d00000001001d0000000a02000039000e00000002001d0a7b097d0000040f0000000b0200002900000000002104350000000d010000290000000e020000290a7b097d0000040f0000000501000029000001e0011000390000000001010433000d00000001001d00000001010000290000000001010433000c00000001001d0000000e020000290a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f0000000401000029000000c0011000390000000001010433000d00000001001d0000000a010000290000000001010433000c00000001001d0000000b02000039000e00000002001d0a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f000000050100002900000220011000390000000001010433000d00000001001d00000001010000290000000001010433000c00000001001d0000000e020000290a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f000000040100002900000100011000390000000001010433000d00000001001d0000000a010000290000000001010433000c00000001001d0000000c02000039000e00000002001d0a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f000000050100002900000240011000390000000001010433000d00000001001d00000001010000290000000001010433000c00000001001d0000000e020000290a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f0000000505000029000001600150003900000000010104330000000303000029000000000203043300000040022000390000000000120435000001a0015000390000000001010433000000020400002900000000020404330000004002200039000000000012043500000180015000390000000001010433000000000203043300000060022000390000000000120435000001c0015000390000000001010433000000000204043300000060022000390000000000120435000000000103043300000080011000390000000b0200002900000000002104350000020001500039000000000101043300000000020404330000008002200039000000000012043500000006010000290000000001010433000e00000001001d0000000a020000290a7b05c90000040f0000000e030000290000000002310049000000000103001900000000030000190a7b00290000040f00080000000000020000000001000416000000000110004c000007bb0000c13d0000000001000031000600000001001d000000040110008a000002ab02000041000003800310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c000007bd0000613d00000000010000190a7b00300000040f00000040030000390000000002030433000002bd0120009c000007e80000813d00000260012000390000000000130435000400000002001d0000000402000029000002b70220009c000007e80000213d00000004020000290000028002200039000000000023043500000004020000390000000102200367000000000202043b0000000000210435000000040200002900000000001204350000000001030433000002b80210009c000007e80000213d0000002002100039000000000023043500000024020000390000000102200367000000000202043b000000000021043500000004020000290000002002200039000200000002001d00000000001204350000000601000029000300000003001d0a7b00d90000040f00000003040000290000000402000029000000400220003900000000001204350000000001040433000002b80210009c0000000402000029000007e90000a13d0a7b00d20000040f00000000030200190000002002100039000000000024043500000064020000390000000102200367000000000202043b000000000021043500000060023000390000000000120435000002ab010000410000000603000029000000a40230008c00000000020000190000000002014019000002ab033001970000000005040019000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000007bb0000c13d0000000002050433000002b90120009c0000000401000029000007e80000213d0000008001100039000100000001001d0000012001200039000000000015043500000084030000390000000004020019000500000002001d000001a30130008c000008180000213d00000000010300190000000602000029000800000003001d000700000004001d0a7b00f40000040f0000000704000029000000080300002900000005020000290000000000140435000000200330003900000020044000390000080a0000013d000000010100002900000000002104350000000601000029000001a40110008a000002ab02000041000000200310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c0000000304000029000007bb0000c13d0000000001040433000002b80210009c0000000402000029000007e80000213d000000a00220003900000020031000390000000000340435000001a4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000001c40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000000c00220003900000020031000390000000000340435000001c4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000001e40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000000e00220003900000020031000390000000000340435000001e4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002040110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000100022000390000002003100039000000000034043500000204030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002240110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000120022000390000002003100039000000000034043500000224030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002440110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000140022000390000002003100039000000000034043500000244030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002640110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000160022000390000002003100039000000000034043500000264030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002840110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000180022000390000002003100039000000000034043500000284030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002a40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000001a00220003900000020031000390000000000340435000002a4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002c40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000001c00220003900000020031000390000000000340435000002c4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002e40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000001e00220003900000020031000390000000000340435000002e4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000003040110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000200022000390000002003100039000000000034043500000304030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000003240110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000220022000390000002003100039000000000034043500000324030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000003440110008a000000400110008c000007bb0000413d0000000001040433000002b00210009c0000000402000029000007e80000213d00000000050200190000004002100039000000000024043500000344020000390000000102200367000000000202043b000000000021043500000364020000390000000102200367000000000202043b0000002003100039000000000023043500000240025000390000000000120435000000020100002900000000010104330000000001010433000000000110004c000007bb0000613d0000000001040433000002b80210009c0000000003040019000007e80000213d0000002002100039000000000023043500000000000104350000000001030433000002b80210009c000007e80000213d00000020021000390000000000230435000000010200003900000000002104350000000102000029000000000202043300000000001204350000000001030433000002b80210009c000007e80000213d00000001020000290000000002020433000000020300002900000000030304330000002004100039000000030500002900000000004504350000000304000029000000000001043500000000030304330000000000310435000000200220003900000000001204350000000001040433000800000001001d000002b80110009c000007e80000213d000000020100002900000000010104330000000803000029000000200230003900000000002404350000000000030435000000000101043300000000001304350000000201000039000700000001001d0000000701000029000000080110008c0000095e0000213d00000002010000290000000001010433000000000201043300000008010000290000000001010433000002bc030000410a7b0a680000040f0000000802000029000000000012043500000003030000290000000001030433000002b80210009c000007e80000213d0000002002100039000000000023043500000000000104350000000802000029000000000202043300000000002104350000000102000029000000000202043300000007040000290000000503400210000000000232001900000000001204350000000104400039000700000004001d0000093f0000013d0000000001000019000000000200001900000000030000190a7b00290000040f000002aa01000041000000000010043500000032010000390000000402000039000000000012043500000024010000390a7b00300000040f00000040020000390000000001020433000002ad0310009c000009730000813d00000040031000390000000000320435000000200210003900000000000204350000000000010435000000000001042d0a7b00d20000040f00000040020000390000000001020433000002ac0310009c0000097c0000813d000000200310003900000000003204350000000000010435000000000001042d0a7b00d20000040f0000000d0320008c000009820000813d00000005022002100000000001120019000000000001042d0a7b09620000040f000000000201001900000040030000390000000001030433000002ac0410009c0000098e0000813d00000020041000390000000000430435000000000001043500000000020204330000000000210435000000000001042d0a7b00d20000040f0001000000000002000100000001001d00000000020204330000000001010433000002bc030000410a7b09ef0000040f000000010200002900000000001204350000000100000005000000000001042d000100000000000200000000040100190000000001020433000002be0210009c000009a70000813d000002bc0300004100000000021300490000000001040433000100000004001d0a7b09ef0000040f000000010200002900000000001204350000000100000005000000000001042d000002aa01000041000000000010043500000011010000390000000402000039000000000012043500000024010000390a7b00300000040f0001000000000002000100000001001d00000000020204330000000001010433000002bc030000410a7b0a680000040f000000010200002900000000001204350000000100000005000000000001042d000100000000000200000040070000390000000005070433000002ad0350009c000009ec0000813d000000400350003900000000003704350000002003500039000000000003043500000000000504350000000003010433000000000330004c0000002004100039000009ca0000c13d0000000003040433000000010330008c000009ca0000c13d00000000000404350000000003070433000002b30630009c000009ec0000213d0000006006300039000000000067043500000000060000310000000109600367000000000600001900000005076002100000000008730019000000000779034f000000000707043b00000000007804350000000106600039000000030760008c000009d20000413d00000000010104330000000000130435000000000104043300000020043000390000000000140435000000000102043300000040023000390000000000120435000000000100041400000007020000390000006004000039000100000005001d0a7b00080000040f000000000110004c000009ed0000613d00000001010000290000000100000005000000000001042d0a7b00d20000040f00000000010000190a7b00300000040f0000000004010019000000000130004c0000000001000019000009fd0000613d00000000213200d900000000413400d9000000000224001900000000153200d9000000000442004b000000000400001900000001040040390000000104400190000009fd0000613d0000000001320049000000000001042d0000008002100270000000000320004c000000000102c0190000010002000039000000800200c0390000004003100270000000400420008a000000000530004c000000000204c019000000000103c0190000002003100270000000200420008a000000000530004c000000000204c019000000000103c0190000001003100270000000100420008a000000000530004c000000000204c019000000000103c0190000000803100270000000080420008a000000000530004c000000000204c019000000000103c0190000000403100270000000040420008a000000000530004c000000000204c019000000000103c0190000000203100270000000020420008a000000000530004c000000000204c019000000000103c01900000000031200490000000101100270000000020220008a000000000110004c0000000001030019000000000102c019000000000001042d00030000000000020000000004010019000000010100008a000000000532004b00000a660000813d0000000001030019000300000003001d000200000004001d000100000002001d0a7b09fe0000040f000000010b0000290000000209000029000000030a000029000000000210004c00000a3d0000613d00000000021b01cf0000010003100089000000000339022f000000000b23019f00000000091901cf000000000a1a01cf0000008002a0027000000000652b00d90000008004900270000002bf03a0019700000a460000013d0000000006260019000000010550008a000002bf0760009c00000a4d0000813d000002c00750009c00000a420000213d00000000873500a90000008008600210000000000848019f000000000787004b00000a420000213d000002bf055001970000000065a500a90000008006b00210000000000464019f000000000454004900000000762400d9000002bf0590019700000a590000013d0000000007270019000000010660008a000002bf0870009c00000a600000813d000002c00860009c00000a550000213d00000000983600a90000008009700210000000000959019f000000000898004b00000a550000213d000002bf026001970000000032a200a90000008003400210000000000353019f0000000002230049000000000112022f0000000300000005000000000001042d000000000430004c00000a710000613d00000000243200d900000000143100d9000002bf0430009c00000a730000213d00000000212100a900000000123100d9000000000001042d0000000001000019000000000001042d00000000212100a90a7b0a280000040f000000000001042d00000a79002104230000000102000039000000000001042d0000000002000019000000000001042d00000a7b0000043200000a7c0001042e00000a7d000104300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff00000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff000000000000000000000000000000000000000000000000ffffffff000000000000000000000000020002000000000000000000000000000000002400000000000000000000000000000002000000000000000000000000000000000000000000000000000000001806aa1896bbf26568e884a7374b41e002500962caba6a15023a8d90e8508b83000000000000000000000000000000000000000000000000000000003ec236cb00000000000000000000000000000000000000000000000000000000c2ef604100000000000000000000000000000000000000000000000000000000fec4e96e4e487b71000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffe0000000000000000000000000000000000000000000000000ffffffffffffffc0000000000000000000000000000000000000000000000000ffffffffffffff80000000000000000000000000000000000000000000000000fffffffffffffea0000000000000000000000000000000000000000000000000ffffffffffffffbf000000000000000000000000000000000000000000000000fffffffffffffeff000000000000000000000000000000000000000000000000ffffffffffffff7f000000000000000000000000000000000000000000000000ffffffffffffff9f000000000000000000000000000000000000000000000000ffffffffffffffff000000000000000000000000000000000000000000000000fffffffffffffd5f000000000000000000000000000000000000000000000000fffffffffffffd9f000000000000000000000000000000000000000000000000fffffffffffffd7f000000000000000000000000000000000000000000000000ffffffffffffffdf000000000000000000000000000000000000000000000000fffffffffffffedf000000000000000000000000000000000000000000000000fffffffffffffe5f000000000000000000000000000000000000000000000000ffffffffffffff3f30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000001000000000000000000000000000000000000000000000000fffffffffffffda030644e72e131a029b85045b68181585d2833e84879b9709143e1f593f000000200000000000000000000000000000000ffffffffffffffffffffffffffffffff00000000000000000000000000000000fffffffffffffffffffffffffffffffe",
+  "deployedBytecode": "0x000200000000000200010000000103550000006001100270000002a00010019d0000000101200190000000070000c13d0a7b00430000040f0a7b00330000040f0001000000000002000100000005001d000000c001100210000002a1011001970000004003300210000002a203300197000000000113019f0000006003400210000002a303300197000000000131019f0a7b0a760000040f0000000106000029000000000300001900000005043002100000000005460019000000000441034f000000000404043b00000000004504350000000103300039000000020430008c000000150000413d000000010120018f0000000100000005000000000001042d000002a40100004100008002020000390a7b0a760000040f0000000102200190000000270000613d000000000101043b000000000001042d00000000010000190a7b00300000040f0000004001100210000002a20110019700000000013100190000006002200210000002a302200197000000000121001900000a7c0001042e0000006001100210000002a30110019700000a7d000104300000008001000039000000400200003900000000001204350000000001000416000000000110004c000000410000c13d000000200200003900000100010000390000000000210439000001200200003900000000000204390000004002000039000002a5030000410a7b00290000040f00000000010000190a7b00300000040f00060000000000020000000001000410000080020210008c000000550000613d0000000002000411000080010220008c000000550000613d000002a6020000410000000000200439000000040200003900000000001204390a7b00200000040f000000000110004c000000550000c13d0000000001000019000000000200001900000000030000190a7b00290000040f0000008001000039000000400300003900000000001304350000000001000031000000040110008c000000d00000413d0000000101000367000000000101043b000000e001100270000002a70210009c000000660000613d000002a80210009c000000650000613d000002a90110009c000000d00000c13d0a7b07a80000040f0a7b06060000040f0000000001000416000000000110004c000000d00000c13d0000000001000031000200000003001d0a7b01bf0000040f000100000001001d000600000002001d000300000003001d0a7b09690000040f0a7b09740000040f0a7b09740000040f00000006020000290000008002200039000600000002001d00000000020204330000000002020433000500000001001d00000000010200190a7b09830000040f000400000001001d00000000020100190a7b09ae0000040f000000060100002900000000010104330000002001100039000000000201043300000004010000290a7b09990000040f00000003010000290000008001100039000300000001001d00000000010104330000002001100039000000000201043300000004010000290a7b09ae0000040f000000050100002900000004020000290a7b098f0000040f00000006010000290000000001010433000000200110003900000000010104330a7b09830000040f000400000001001d00000000020100190a7b09ae0000040f000000060100002900000000010104330000004001100039000000000201043300000004010000290a7b09990000040f000000030100002900000000010104330000004001100039000000000201043300000004010000290a7b09ae0000040f000000050100002900000004020000290a7b098f0000040f00000006010000290000000001010433000000400110003900000000010104330a7b09830000040f000000060200002900000000020204330000000002020433000400000001001d0a7b09ae0000040f000000060100002900000000010104330000006001100039000000000201043300000004010000290a7b09990000040f000000030100002900000000010104330000006001100039000000000201043300000004010000290a7b09ae0000040f000000050100002900000004020000290a7b098f0000040f0000000101000029000000600110003900000000010104330000002001100039000000000101043300000005020000290a7b09b80000040f00000002020000290000000003020433000600000003001d000000000201001900000000010300190a7b05c10000040f00000006030000290000000002310049000000000103001900000000030000190a7b00290000040f00000000010000190a7b00300000040f000002aa01000041000000000010043500000041010000390000000402000039000000000012043500000024010000390a7b00300000040f000000440110008a000002ab020000410000001f0310008c00000000030000190000000003022019000002ab01100197000000000410004c0000000002008019000002ab0110009c00000000010300190000000001026019000000000110004c000000f10000613d00000040020000390000000001020433000002ac0310009c000000f30000813d0000002003100039000000000032043500000044020000390000000102200367000000000202043b0000000000210435000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000000002120049000002ab030000410000001f0420008c00000000040000190000000004032019000002ab02200197000000000520004c0000000003008019000002ab0220009c00000000020400190000000002036019000000000220004c0000010c0000613d00000040030000390000000002030433000002ac0420009c0000010e0000813d000000200420003900000000004304350000000101100367000000000101043b00000000001204350000000001020019000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000000002120049000002ab030000410000003f0420008c00000000040000190000000004032019000002ab02200197000000000520004c0000000003008019000002ab0220009c00000000020400190000000002036019000000000220004c0000012c0000613d00000040030000390000000002030433000002ad0420009c0000012e0000813d000000400420003900000000004304350000000103100367000000000303043b000000000032043500000020011000390000000101100367000000000101043b000000200320003900000000001304350000000001020019000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f000500000000000200000000070100190000001f01700039000002ab06000041000000000321004b00000000030000190000000003064019000300000002001d000002ab04200197000002ab01100197000000000541004b00000000020000190000000002062019000000000141013f000002ab0110009c00000000010300190000000001026019000000000110004c000001610000613d00000040010000390000000003010433000002ae0230009c000001630000813d0000008002300039000000000021043500000100027000390000000301000029000200000002001d000000000112004b000001610000213d0000000002030019000100000003001d0000000201000029000000000117004b0000015e0000813d0000000001070019000400000002001d0000000302000029000500000007001d0a7b010f0000040f0000000402000029000000010300002900000005070000290000000000120435000000400770003900000020022000390000014f0000013d00000000010300190000000500000005000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000001f03100039000002ab04000041000000000523004b00000000050000190000000005044019000002ab06200197000002ab03300197000000000763004b000000000400a019000000000363013f000002ab0330009c00000000030500190000000003046019000000000330004c000001870000613d00000040040000390000000003040433000002ad0530009c000001890000813d000000400530003900000000005404350000004004100039000000000224004b000001870000213d0000000002030019000000000541004b000001850000813d0000000105100367000000000505043b0000000000520435000000200110003900000020022000390000017d0000013d0000000001030019000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f000500000000000200000000070100190000001f01700039000002ab06000041000000000321004b00000000030000190000000003064019000300000002001d000002ab04200197000002ab01100197000000000541004b00000000020000190000000002062019000000000141013f000002ab0110009c00000000010300190000000001026019000000000110004c000001bc0000613d00000040010000390000000003010433000002ac0230009c000001be0000813d0000002002300039000000000021043500000020027000390000000301000029000200000002001d000000000112004b000001bc0000213d0000000002030019000100000003001d0000000201000029000000000117004b000001b90000813d0000000001070019000400000002001d0000000302000029000500000007001d0a7b00f40000040f000000040200002900000001030000290000000507000029000000000012043500000020077000390000002002200039000001aa0000013d00000000010300190000000500000005000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f000a000000000002000a00000001001d000000040110008a000002ab0200004100000a5f0310008c00000000030000190000000003022019000002ab01100197000000000410004c0000000002008019000002ab0110009c00000000010300190000000001026019000000000110004c000005be0000613d00000040030000390000000001030433000200000001001d000002af0110009c000005c00000813d00000002020000290000016001200039000000000013043500000004010000390000000101100367000000000101043b000000000012043500000024010000390000000101100367000000000101043b000000200220003900000000001204350000000a01000029000900000003001d0a7b00d90000040f0000000906000029000002ab020000410000000a04000029000000840340008c00000000030000190000000003024019000002ab04400197000000000540004c000000000200a019000002ab0440009c000000000203c019000000020300002900000040033000390000000000130435000000000120004c000005be0000c13d0000000002060433000002b00120009c000005c00000213d00000002010000290000006001100039000500000001001d0000004001200039000000000016043500000064030000390000000004020019000600000002001d000000e30130008c0000020c0000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000040033000390000002004400039000001fd0000013d00000005010000290000000000210435000002ab010000410000000a03000029000001040230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b10120009c000005c00000213d000001000120003900000000001604350000000a01000029000002e40110008c000005be0000413d00000002010000290000008001100039000500000001001d000000e4030000390000000004020019000600000002001d000002e30130008c000002370000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000040033000390000002004400039000002280000013d00000005010000290000000000210435000002ab010000410000000a03000029000003040230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b20120009c000005c00000213d000000800120003900000000001604350000000a01000029000003e40110008c000005be0000413d0000000201000029000000a001100039000500000001001d000002e4030000390000000004020019000600000002001d000003e30130008c000002620000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000040033000390000002004400039000002530000013d000000050100002900000000002104350000000a01000029000003e40110008a000002ab02000041000000400310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c000005be0000c13d0000000001060433000002b00210009c000005c00000213d0000000202000029000000c00220003900000040031000390000000000360435000003e4030000390000000103300367000000000303043b000000000031043500000404030000390000000103300367000000000303043b000000200410003900000000003404350000000000120435000002ab010000410000000a03000029000004440230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b20120009c000005c00000213d000000800120003900000000001604350000000a01000029000005240110008c000005be0000413d0000000201000029000000e001100039000500000001001d00000424030000390000000004020019000600000002001d000005230130008c000002ac0000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b010f0000040f00000007040000290000000803000029000000060200002900000009060000290000000000140435000000400330003900000020044000390000029d0000013d000000050100002900000000002104350000000a01000029000005240110008a000002ab02000041000000400310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c000005be0000c13d0000000001060433000002b00210009c000005c00000213d000000020200002900000100022000390000004003100039000000000036043500000524030000390000000103300367000000000303043b000000000031043500000544030000390000000103300367000000000303043b000000200410003900000000003404350000000000120435000002ab010000410000000a03000029000005840230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002060433000002b30120009c000005c00000213d000000600120003900000000001604350000000a01000029000005c40110008c000005be0000413d00000002010000290000012001100039000500000001001d00000564030000390000000004020019000600000002001d000005c30130008c000002f60000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b00f40000040f0000000704000029000000080300002900000006020000290000000906000029000000000014043500000020033000390000002004400039000002e70000013d00000005010000290000000000210435000002ab010000410000000a03000029000005e40230008c00000000020000190000000002014019000002ab03300197000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000001060433000500000001001d000002b00110009c000005c00000213d0000000501000029000000400110003900000000001604350000000a01000029000006c40110008c000005be0000413d00000002010000290000014001100039000400000001001d000005c4050000390000000506000029000006c30150008c0000033e0000213d0000000a010000290000000001510049000002ab02000041000000800310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c0000000902000029000005be0000c13d000600000006001d0000000003020433000002b00130009c000005c00000213d0000004001300039000000000012043500000000010500190000000a02000029000800000005001d000700000003001d0a7b01640000040f00000007020000290000000000120435000000080100002900000040011000390000000a020000290a7b01640000040f00000008050000290000000703000029000000200230003900000000001204350000000606000029000000000036043500000080055000390000002006600039000003130000013d000000050100002900000004020000290000000000120435000006c4010000390000000101100367000000000a01043b000002b401a0009c0000000909000029000005be0000213d0000000402a000390000000a010000290000000001210049000002ab03000041000005a00410008c00000000040000190000000004034019000002ab01100197000000000510004c000000000300a019000002ab0110009c00000000010400190000000001036019000000000110004c000005be0000c13d0000000001090433000400000001001d000002b50110009c000005c00000213d0000000401000029000002a00110003900000000001904350000000103000367000000000423034f000000000404043b000002b40540009c000005be0000213d00000000022400190000001f04200039000002ab050000410000000a07000029000000000674004b00000000060000190000000006058019000002ab04400197000002ab07700197000000000874004b0000000005008019000000000474013f000002ab0440009c00000000040600190000000004056019000000000440004c000005be0000c13d000000000323034f000000000303043b000002b40430009c000005c00000213d00000005043002100000003f05400039000000200600008a000000000565016f0000000005150019000002b40650009c000005c00000213d00000000005904350000000000310435000000000342001900000020033000390000000a04000029000000000443004b000005be0000213d00000000040100190000002002200039000000000532004b0000038e0000813d0000000105200367000000000505043b00000020044000390000000000540435000003860000013d000000040200002900000000001204350000002401a000390000000a0200002900030000000a001d0a7b012f0000040f000000040200002900000020022000390000000000120435000000030100002900000124011000390000000a020000290a7b010f0000040f000000040200002900000040022000390000000000120435000000030100002900000164011000390000000a020000290a7b012f0000040f000000030800002900000009070000290000028302800039000002ab030000410000000a05000029000000000452004b00000000040000190000000004038019000002ab05500197000002ab02200197000000000652004b0000000003008019000000000252013f000002ab0220009c00000000020400190000000002036019000000040300002900000060033000390000000000130435000000000120004c000005be0000c13d0000000002070433000002b20120009c000005c00000213d00000080012000390000000000170435000002e4038000390000000a01000029000600000003001d000000000113004b000005be0000213d000002640380003900000004010000290000008001100039000100000001001d0000000004020019000500000002001d0000000601000029000000000113004b000003d60000813d00000000010300190000000a02000029000800000003001d000700000004001d0a7b00f40000040f000000070400002900000008030000290000000502000029000000000014043500000020033000390000002004400039000003c70000013d0000000101000029000000000021043500000006010000290000000a020000290a7b018a0000040f0000000402000029000000a0022000390000000000120435000000030100002900000304011000390000000a020000290a7b018a0000040f00000003060000290000000402000029000000c00220003900000000001204350000034301600039000002ab020000410000000a04000029000000000341004b00000000030000190000000003028019000002ab04400197000002ab01100197000000000541004b0000000002008019000000000141013f000002ab0110009c00000000010300190000000001026019000000000110004c0000000902000029000005be0000c13d0000000003020433000002b30130009c000005c00000213d0000006001300039000000000012043500000384026000390000000a01000029000600000002001d000000000112004b000005be0000213d00000324026000390000000004030019000500000003001d0000000601000029000000000112004b000004130000813d0000000001020019000800000002001d0000000a02000029000700000004001d0a7b00f40000040f000000070400002900000008020000290000000503000029000000000014043500000020022000390000002004400039000004040000013d0000000401000029000000e001100039000000000031043500000006010000290000000a020000290a7b00f40000040f0000000402000029000001000220003900000000001204350000000301000029000003a4011000390000000a020000290a7b00f40000040f0000000402000029000001200220003900000000001204350000000301000029000003c4011000390000000a020000290a7b00f40000040f0000000402000029000001400220003900000000001204350000000301000029000003e4011000390000000a020000290a7b010f0000040f000000040200002900000160022000390000000000120435000000030100002900000424011000390000000a020000290a7b010f0000040f000000040200002900000180022000390000000000120435000000030100002900000464011000390000000a020000290a7b00f40000040f0000000402000029000001a0022000390000000000120435000000030100002900000484011000390000000a020000290a7b00f40000040f0000000402000029000001c00220003900000000001204350000000301000029000004a4011000390000000a020000290a7b00f40000040f0000000402000029000001e00220003900000000001204350000000301000029000004c4011000390000000a020000290a7b00f40000040f0000000402000029000002000220003900000000001204350000000301000029000004e4011000390000000a020000290a7b00f40000040f000000040200002900000220022000390000000000120435000000030100002900000504011000390000000a020000290a7b00f40000040f000000040200002900000240022000390000000000120435000000030100002900000524011000390000000a020000290a7b010f0000040f000000040200002900000260022000390000000000120435000000030100002900000564011000390000000a020000290a7b010f0000040f0000000a02000029000006e40220008a000002ab03000041000003800420008c00000000040000190000000004034019000002ab02200197000000000520004c000000000300a019000002ab0220009c00000000020400190000000002036019000000040300002900000280033000390000000000130435000000000120004c0000000905000029000005be0000c13d0000000004050433000002b60140009c000005c00000213d00000260014000390000000000150435000002b70240009c000005c00000213d00000280024000390000000000250435000006e4020000390000000102200367000000000202043b000000000021043500000000001404350000000001050433000002b80210009c000005c00000213d0000002002100039000000000025043500000704020000390000000102200367000000000202043b0000000000210435000000200240003900000000001204350000000001050433000002b80210009c000005c00000213d0000002002100039000000000025043500000724020000390000000102200367000000000202043b0000000000210435000000400240003900000000001204350000000001050433000002b80210009c000005c00000213d0000002002100039000000000025043500000744020000390000000102200367000000000202043b000000000021043500000060024000390000000000120435000002ab010000410000000a03000029000007840230008c00000000020000190000000002014019000002ab03300197000500000004001d000000000430004c0000000504000029000000000100a019000002ab0330009c000000000102c019000000000110004c000005be0000c13d0000000002050433000002b90120009c000005c00000213d0000008001400039000300000001001d0000012001200039000000000015043500000764030000390000000004020019000600000002001d000008830130008c000004d50000213d00000000010300190000000a02000029000800000003001d000700000004001d0a7b00f40000040f0000000704000029000000080300002900000006020000290000000905000029000000000014043500000020033000390000002004400039000004c60000013d000000030100002900000000002104350000000a01000029000008840110008a000002ab02000041000000200310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c0000000504000029000005be0000c13d0000000001050433000002b80210009c000005c00000213d000000a0024000390000002003100039000000000035043500000884030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000008a40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000000c00240003900000020031000390000000000350435000008a4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000008c40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000000e00240003900000020031000390000000000350435000008c4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000008e40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001000240003900000020031000390000000000350435000008e4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009040110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000120024000390000002003100039000000000035043500000904030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009240110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000140024000390000002003100039000000000035043500000924030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009440110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000160024000390000002003100039000000000035043500000944030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009640110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000180024000390000002003100039000000000035043500000964030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009840110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001a0024000390000002003100039000000000035043500000984030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009a40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001c00240003900000020031000390000000000350435000009a4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009c40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000001e00240003900000020031000390000000000350435000009c4030000390000000103300367000000000303043b000000000031043500000000001204350000000a01000029000009e40110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d000002000240003900000020031000390000000000350435000009e4030000390000000103300367000000000303043b000000000031043500000000001204350000000a0100002900000a040110008a000000200110008c000005be0000413d0000000001050433000002b80210009c000005c00000213d00000220024000390000002003100039000000000035043500000a04030000390000000103300367000000000303043b000000000031043500000000001204350000000a0100002900000a240110008a000000400110008c000005be0000413d0000000001050433000002b00210009c000005c00000213d0000004002100039000000000025043500000a24020000390000000102200367000000000202043b000000000021043500000a44020000390000000102200367000000000202043b00000020031000390000000000230435000002400240003900000000001204350000000201000029000000040200002900000000030400190000000a00000005000000000001042d00000000010000190a7b00300000040f0a7b00d20000040f0000000003020433000000000031043500000020022000390000000002020433000000200310003900000000002304350000004001100039000000000001042d0000000003020433000000000401001900000000050000190000000c0650008c000005d90000213d0000000006030433000000000706043300000000007404350000002006600039000000000606043300000020074000390000000000670435000000010550003900000020033000390000004004400039000005cc0000013d00000340031000390000002004200039000000000404043300000000050000190000000c0650008c000005e60000213d000000000604043300000000060604330000000000630435000000010550003900000020044000390000002003300039000005dd0000013d000004e003100039000000400420003900000000040404330000000005000019000000050650008c000005f70000213d0000000006040433000000000706043300000000007304350000002006600039000000000606043300000020073000390000000000670435000000010550003900000020044000390000004003300039000005ea0000013d0000066003100039000000600220003900000000020204330000000004000019000000050540008c000006040000213d000000000502043300000000050504330000000000530435000000010440003900000020022000390000002003300039000005fb0000013d0000072001100039000000000001042d000e0000000000020000000001000416000000000110004c0000072a0000c13d00000000010000310a7b01bf0000040f000400000001001d000500000002001d000000400c000039000000000b0c0433000002ae01b0009c000006c30000813d0000008001b0003900000000001c0435000002ba0210009c000006c30000213d0000022002b0003900000000002c043500000000020000190000019f0420008c000006270000213d00000000040c0433000002b00540009c000006c30000213d000000400540003900000000005c0435000000200540003900000000000504350000000000040435000000000512001900000000004504350000002002200039000006190000013d00000000001b043500000000010c0433000002ba0210009c000006c30000213d000001a00210003900000000002c043500000000020000190000019f0420008c0000063a0000213d00000000040c0433000002b80540009c000006c30000213d000000200540003900000000005c043500000000000404350000000005120019000000000045043500000020022000390000062e0000013d000000200db0003900000000001d043500000000010c0433000002bb0210009c000006c30000213d000000c00210003900000000002c04350000000002000019000000bf0420008c000006500000213d00000000040c0433000002b00540009c000006c30000213d000000400540003900000000005c0435000000200540003900000000000504350000000000040435000000000512001900000000004504350000002002200039000006420000013d0000004002b00039000300000002001d000000000012043500000000010c0433000002bb0210009c000006c30000213d000000c00210003900000000002c04350000000002000019000000bf0420008c000006650000213d00000000040c0433000002b80540009c000006c30000213d000000200540003900000000005c04350000000000040435000000000512001900000000004504350000002002200039000006590000013d000000600eb0003900000000001e04350000000202000039000000050100002900000080041000390000002001100039000000000500001900000000060b0433000000030750008c0000067f0000213d000000050720021000000000067600190000000008010433000000050950021000000000089800190000000008080433000000000086043500000000060d043300000000067600190000000007040433000000000797001900000000070704330000000000760435000000010550003900000001022000390000066c0000013d0000000407000029000000600270003900000000020204330000000002020433000000c00460003900000000002404350000000505000029000000c0025000390000000002020433000000000202043300000000040d0433000000c00440003900000000002404350000000702000039000000e004500039000000a0057000390000000006000019000000020760008c000006a30000213d00000000070b0433000000050820021000000000078700190000000009050433000000050a6002100000000009a900190000000009090433000000000097043500000000070d0433000000000787001900000000080404330000000008a800190000000008080433000000000087043500000001066000390000000102200039000006900000013d0000000505000029000000400250003900000000020204330000000306000029000000000406043300000000002404350000000001010433000000600110003900000000010104330000000002060433000000200220003900000000001204350000010001500039000000000101043300000000020e04330000000000120435000000a0015000390000000001010433000000000101043300020000000e001d00000000020e0433000000200220003900000000001204350000000401000029000000e001100039000c00000001001d0000000001010433000000000401043300000000010c0433000e00000001001d000002b80110009c000006c40000a13d0a7b00d20000040f00010000000d001d000000a001300039000700000001001d00000000010104330000000e05000029000000200250003900060000000c001d00000000002c04350000000000050435000000000101043300000000001504350000000102000039000b00000004001d0000002001400039000900000001001d0000024001300039000800000001001d000a0000000b001d000000040120008c0000072c0000813d000d00000002001d00000005012002100000000c020000290000000002020433000000000112001900000000010104330000000e020000290a7b09b80000040f000000080200002900000000001204350000000003010433000000000230004c000006e90000c13d00000020021000390000000002020433000000000220004c000007150000613d00000020021000390000000b050000290000000004050433000000000440004c0000000909000029000006f20000c13d0000000004090433000000000440004c0000071a0000613d00000006060000290000000003060433000002b20430009c000006c30000213d0000008004300039000000000046043500000000040000310000000104400367000000000800001900000005068002100000000007630019000000000664034f000000000606043b00000000006704350000000108800039000000040680008c000006fb0000413d000000000405043300000000004304350000000004090433000000200630003900000000004604350000004004300039000000000101043300000000001404350000000001020433000000600230003900000000001204350000000001000414000000060200003900000080040000390a7b00080000040f000000000110004c0000071d0000c13d0000072a0000013d0000000b050000290000000003050433000000090900002900000000020900190000071a0000013d0000000000350435000000000102043300000000001904350000000701000029000000000101043300000000020104330000000e010000290000000001010433000002bc030000410a7b0a680000040f0000000e0200002900000000001204350000000d0200002900000001022000390000000a0b000029000006d60000013d00000000010000190a7b00300000040f00000000010b0433000d00000001001d0000000a02000039000e00000002001d0a7b097d0000040f0000000b0200002900000000002104350000000d010000290000000e020000290a7b097d0000040f0000000501000029000001e0011000390000000001010433000d00000001001d00000001010000290000000001010433000c00000001001d0000000e020000290a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f0000000401000029000000c0011000390000000001010433000d00000001001d0000000a010000290000000001010433000c00000001001d0000000b02000039000e00000002001d0a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f000000050100002900000220011000390000000001010433000d00000001001d00000001010000290000000001010433000c00000001001d0000000e020000290a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f000000040100002900000100011000390000000001010433000d00000001001d0000000a010000290000000001010433000c00000001001d0000000c02000039000e00000002001d0a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f000000050100002900000240011000390000000001010433000d00000001001d00000001010000290000000001010433000c00000001001d0000000e020000290a7b097d0000040f0000000d0200002900000000002104350000000c010000290000000e020000290a7b097d0000040f0000000505000029000001600150003900000000010104330000000303000029000000000203043300000040022000390000000000120435000001a0015000390000000001010433000000020400002900000000020404330000004002200039000000000012043500000180015000390000000001010433000000000203043300000060022000390000000000120435000001c0015000390000000001010433000000000204043300000060022000390000000000120435000000000103043300000080011000390000000b0200002900000000002104350000020001500039000000000101043300000000020404330000008002200039000000000012043500000006010000290000000001010433000e00000001001d0000000a020000290a7b05c90000040f0000000e030000290000000002310049000000000103001900000000030000190a7b00290000040f00080000000000020000000001000416000000000110004c000007bb0000c13d0000000001000031000600000001001d000000040110008a000002ab02000041000003800310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c000007bd0000613d00000000010000190a7b00300000040f00000040030000390000000002030433000002bd0120009c000007e80000813d00000260012000390000000000130435000400000002001d0000000402000029000002b70220009c000007e80000213d00000004020000290000028002200039000000000023043500000004020000390000000102200367000000000202043b0000000000210435000000040200002900000000001204350000000001030433000002b80210009c000007e80000213d0000002002100039000000000023043500000024020000390000000102200367000000000202043b000000000021043500000004020000290000002002200039000200000002001d00000000001204350000000601000029000300000003001d0a7b00d90000040f00000003040000290000000402000029000000400220003900000000001204350000000001040433000002b80210009c0000000402000029000007e90000a13d0a7b00d20000040f00000000030200190000002002100039000000000024043500000064020000390000000102200367000000000202043b000000000021043500000060023000390000000000120435000002ab010000410000000603000029000000a40230008c00000000020000190000000002014019000002ab033001970000000005040019000000000430004c000000000100a019000002ab0330009c000000000102c019000000000110004c000007bb0000c13d0000000002050433000002b90120009c0000000401000029000007e80000213d0000008001100039000100000001001d0000012001200039000000000015043500000084030000390000000004020019000500000002001d000001a30130008c000008180000213d00000000010300190000000602000029000800000003001d000700000004001d0a7b00f40000040f0000000704000029000000080300002900000005020000290000000000140435000000200330003900000020044000390000080a0000013d000000010100002900000000002104350000000601000029000001a40110008a000002ab02000041000000200310008c00000000030000190000000003024019000002ab01100197000000000410004c000000000200a019000002ab0110009c00000000010300190000000001026019000000000110004c0000000304000029000007bb0000c13d0000000001040433000002b80210009c0000000402000029000007e80000213d000000a00220003900000020031000390000000000340435000001a4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000001c40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000000c00220003900000020031000390000000000340435000001c4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000001e40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000000e00220003900000020031000390000000000340435000001e4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002040110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000100022000390000002003100039000000000034043500000204030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002240110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000120022000390000002003100039000000000034043500000224030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002440110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000140022000390000002003100039000000000034043500000244030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002640110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000160022000390000002003100039000000000034043500000264030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002840110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000180022000390000002003100039000000000034043500000284030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002a40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000001a00220003900000020031000390000000000340435000002a4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002c40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000001c00220003900000020031000390000000000340435000002c4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000002e40110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d000001e00220003900000020031000390000000000340435000002e4030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000003040110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000200022000390000002003100039000000000034043500000304030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000003240110008a000000200110008c000007bb0000413d0000000001040433000002b80210009c0000000402000029000007e80000213d00000220022000390000002003100039000000000034043500000324030000390000000103300367000000000303043b000000000031043500000000001204350000000601000029000003440110008a000000400110008c000007bb0000413d0000000001040433000002b00210009c0000000402000029000007e80000213d00000000050200190000004002100039000000000024043500000344020000390000000102200367000000000202043b000000000021043500000364020000390000000102200367000000000202043b0000002003100039000000000023043500000240025000390000000000120435000000020100002900000000010104330000000001010433000000000110004c000007bb0000613d0000000001040433000002b80210009c0000000003040019000007e80000213d0000002002100039000000000023043500000000000104350000000001030433000002b80210009c000007e80000213d00000020021000390000000000230435000000010200003900000000002104350000000102000029000000000202043300000000001204350000000001030433000002b80210009c000007e80000213d00000001020000290000000002020433000000020300002900000000030304330000002004100039000000030500002900000000004504350000000304000029000000000001043500000000030304330000000000310435000000200220003900000000001204350000000001040433000800000001001d000002b80110009c000007e80000213d000000020100002900000000010104330000000803000029000000200230003900000000002404350000000000030435000000000101043300000000001304350000000201000039000700000001001d0000000701000029000000080110008c0000095e0000213d00000002010000290000000001010433000000000201043300000008010000290000000001010433000002bc030000410a7b0a680000040f0000000802000029000000000012043500000003030000290000000001030433000002b80210009c000007e80000213d0000002002100039000000000023043500000000000104350000000802000029000000000202043300000000002104350000000102000029000000000202043300000007040000290000000503400210000000000232001900000000001204350000000104400039000700000004001d0000093f0000013d0000000001000019000000000200001900000000030000190a7b00290000040f000002aa01000041000000000010043500000032010000390000000402000039000000000012043500000024010000390a7b00300000040f00000040020000390000000001020433000002ad0310009c000009730000813d00000040031000390000000000320435000000200210003900000000000204350000000000010435000000000001042d0a7b00d20000040f00000040020000390000000001020433000002ac0310009c0000097c0000813d000000200310003900000000003204350000000000010435000000000001042d0a7b00d20000040f0000000d0320008c000009820000813d00000005022002100000000001120019000000000001042d0a7b09620000040f000000000201001900000040030000390000000001030433000002ac0410009c0000098e0000813d00000020041000390000000000430435000000000001043500000000020204330000000000210435000000000001042d0a7b00d20000040f0001000000000002000100000001001d00000000020204330000000001010433000002bc030000410a7b09ef0000040f000000010200002900000000001204350000000100000005000000000001042d000100000000000200000000040100190000000001020433000002be0210009c000009a70000813d000002bc0300004100000000021300490000000001040433000100000004001d0a7b09ef0000040f000000010200002900000000001204350000000100000005000000000001042d000002aa01000041000000000010043500000011010000390000000402000039000000000012043500000024010000390a7b00300000040f0001000000000002000100000001001d00000000020204330000000001010433000002bc030000410a7b0a680000040f000000010200002900000000001204350000000100000005000000000001042d000100000000000200000040070000390000000005070433000002ad0350009c000009ec0000813d000000400350003900000000003704350000002003500039000000000003043500000000000504350000000003010433000000000330004c0000002004100039000009ca0000c13d0000000003040433000000010330008c000009ca0000c13d00000000000404350000000003070433000002b30630009c000009ec0000213d0000006006300039000000000067043500000000060000310000000109600367000000000600001900000005076002100000000008730019000000000779034f000000000707043b00000000007804350000000106600039000000030760008c000009d20000413d00000000010104330000000000130435000000000104043300000020043000390000000000140435000000000102043300000040023000390000000000120435000000000100041400000007020000390000006004000039000100000005001d0a7b00080000040f000000000110004c000009ed0000613d00000001010000290000000100000005000000000001042d0a7b00d20000040f00000000010000190a7b00300000040f0000000004010019000000000130004c0000000001000019000009fd0000613d00000000213200d900000000413400d9000000000224001900000000153200d9000000000442004b000000000400001900000001040040390000000104400190000009fd0000613d0000000001320049000000000001042d0000008002100270000000000320004c000000000102c0190000010002000039000000800200c0390000004003100270000000400420008a000000000530004c000000000204c019000000000103c0190000002003100270000000200420008a000000000530004c000000000204c019000000000103c0190000001003100270000000100420008a000000000530004c000000000204c019000000000103c0190000000803100270000000080420008a000000000530004c000000000204c019000000000103c0190000000403100270000000040420008a000000000530004c000000000204c019000000000103c0190000000203100270000000020420008a000000000530004c000000000204c019000000000103c01900000000031200490000000101100270000000020220008a000000000110004c0000000001030019000000000102c019000000000001042d00030000000000020000000004010019000000010100008a000000000532004b00000a660000813d0000000001030019000300000003001d000200000004001d000100000002001d0a7b09fe0000040f000000010b0000290000000209000029000000030a000029000000000210004c00000a3d0000613d00000000021b01cf0000010003100089000000000339022f000000000b23019f00000000091901cf000000000a1a01cf0000008002a0027000000000652b00d90000008004900270000002bf03a0019700000a460000013d0000000006260019000000010550008a000002bf0760009c00000a4d0000813d000002c00750009c00000a420000213d00000000873500a90000008008600210000000000848019f000000000787004b00000a420000213d000002bf055001970000000065a500a90000008006b00210000000000464019f000000000454004900000000762400d9000002bf0590019700000a590000013d0000000007270019000000010660008a000002bf0870009c00000a600000813d000002c00860009c00000a550000213d00000000983600a90000008009700210000000000959019f000000000898004b00000a550000213d000002bf026001970000000032a200a90000008003400210000000000353019f0000000002230049000000000112022f0000000300000005000000000001042d000000000430004c00000a710000613d00000000243200d900000000143100d9000002bf0430009c00000a730000213d00000000212100a900000000123100d9000000000001042d0000000001000019000000000001042d00000000212100a90a7b0a280000040f000000000001042d00000a79002104230000000102000039000000000001042d0000000002000019000000000001042d00000a7b0000043200000a7c0001042e00000a7d000104300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff00000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff000000000000000000000000000000000000000000000000ffffffff000000000000000000000000020002000000000000000000000000000000002400000000000000000000000000000002000000000000000000000000000000000000000000000000000000001806aa1896bbf26568e884a7374b41e002500962caba6a15023a8d90e8508b83000000000000000000000000000000000000000000000000000000003ec236cb00000000000000000000000000000000000000000000000000000000c2ef604100000000000000000000000000000000000000000000000000000000fec4e96e4e487b71000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffe0000000000000000000000000000000000000000000000000ffffffffffffffc0000000000000000000000000000000000000000000000000ffffffffffffff80000000000000000000000000000000000000000000000000fffffffffffffea0000000000000000000000000000000000000000000000000ffffffffffffffbf000000000000000000000000000000000000000000000000fffffffffffffeff000000000000000000000000000000000000000000000000ffffffffffffff7f000000000000000000000000000000000000000000000000ffffffffffffff9f000000000000000000000000000000000000000000000000ffffffffffffffff000000000000000000000000000000000000000000000000fffffffffffffd5f000000000000000000000000000000000000000000000000fffffffffffffd9f000000000000000000000000000000000000000000000000fffffffffffffd7f000000000000000000000000000000000000000000000000ffffffffffffffdf000000000000000000000000000000000000000000000000fffffffffffffedf000000000000000000000000000000000000000000000000fffffffffffffe5f000000000000000000000000000000000000000000000000ffffffffffffff3f30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000001000000000000000000000000000000000000000000000000fffffffffffffda030644e72e131a029b85045b68181585d2833e84879b9709143e1f593f000000200000000000000000000000000000000ffffffffffffffffffffffffffffffff00000000000000000000000000000000fffffffffffffffffffffffffffffffe",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "factoryDeps": {}
+}
