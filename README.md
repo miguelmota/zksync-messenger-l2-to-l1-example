@@ -102,3 +102,7 @@ npx hardhat run --network zksync scripts/getGreetingOnL1.js
 
 greeting: hello world
 ```
+
+## License
+
+[MIT](./LICENSE) @ [Miguel Mota](https://github.com/miguelmota)
