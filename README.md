@@ -10,6 +10,17 @@ The L2 contract has a method `sendGreetingMessageToL1` that sends a message to L
 
 The L1 contract has a method `consumeMessageFromL2` that checks that the message was included in L2 block using zksync `proveL2MessageInclusion` and executes `setGreeting` call on itself which can only be called if the message was send by the L2 contract.
 
+### Files
+
+- [`L2Contract.sol`](./contracts/L2Contract.sol)
+- [`L1Contract.sol`](./contracts/L1Contract.sol)
+- [`deployL2.js`](./deploy/deploy.js)
+- [`deployL1.js`](./scripts/deployL1.js)
+- [`sendL2ToL1Message.js`](./scripts/sendL2ToL1Message.js)
+- [`waitForInclusion.js`](./scripts/waitForInclusion.js)
+- [`executeMessageOnL1.js`](./scripts/executeMessageOnL1.js)
+- [`getGreetingOnL1.js`](./scripts/getGreetingOnL1.js)
+
 ### Set Signer
 
 Create `.env`
@@ -18,7 +29,7 @@ Create `.env`
 PRIVATE_KEY=123...
 ```
 
-Make sure private key hash funds on both zkSync testnet and Goerli.
+Make sure private key has funds on both zkSync testnet and Goerli.
 
 ### Compile Contracts
 
