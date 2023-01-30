@@ -3,7 +3,6 @@ const wait = require('wait')
 require('dotenv').config()
 
 async function main() {
-  const l1ContractAddress = process.env.L1_CONTRACT
   const l2ContractAddress = process.env.L2_CONTRACT
   const l2TransactionHash = process.env.L2_TX_HASH
   const greeting = process.env.GREETING

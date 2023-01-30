@@ -89,7 +89,6 @@ Command
 
 ```sh
 GREETING="hello world" \
-L1_CONTRACT=0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772 \
 L2_CONTRACT=0xf32971F66593AbBd4D032015FAa0222871895b68 \
 L2_TX_HASH=0x56b1779fb907fb1349594d417106ebc05c4f9b226703d11f4b9bb6a5f0208995 \
 npx hardhat run --network zksync scripts/waitForInclusion.js
