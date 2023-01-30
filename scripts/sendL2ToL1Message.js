@@ -15,6 +15,9 @@ async function main() {
   await tx.wait()
   console.log(`sent tx hash ${tx.hash}`)
   console.log(`https://goerli.explorer.zksync.io/tx/${tx.hash}`)
+  // console.log('waiting for transaction to finalize...')
+  // await tx.waitFinalize()
+  // console.log('done')
 }
 
 // We recommend this pattern to be able to use async/await everywhere

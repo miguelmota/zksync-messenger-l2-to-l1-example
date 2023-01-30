@@ -39,33 +39,53 @@ npx hardhat compile
 
 ### Deploy L2 Contract
 
+Command
+
 ```sh
 npx hardhat deploy-zksync --network zksync
+```
 
+Output
+
+```sh
 deployed to 0xf32971F66593AbBd4D032015FAa0222871895b68
 ```
 
 ### Deploy L1 Contract
 
+Command
+
 ```sh
 L2_CONTRACT=0xf32971F66593AbBd4D032015FAa0222871895b68 \
 npx hardhat run --network goerli scripts/deployL1.js
+```
 
+Output
+
+```sh
 deployed to 0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772
 ```
 
 ### Send L2->L1 Message
 
+Command
+
 ```sh
 GREETING="hello world" \
 L2_CONTRACT=0xf32971F66593AbBd4D032015FAa0222871895b68 \
 npx hardhat run --network zksync scripts/sendL2ToL1Message.js
+```
 
+Output
+
+```sh
 sent tx hash 0x56b1779fb907fb1349594d417106ebc05c4f9b226703d11f4b9bb6a5f0208995
 https://goerli.explorer.zksync.io/tx/0x56b1779fb907fb1349594d417106ebc05c4f9b226703d11f4b9bb6a5f0208995
 ```
 
 ### Wait for L1 Block Inclusion
+
+Command
 
 ```sh
 GREETING="hello world" \
@@ -73,7 +93,11 @@ L1_CONTRACT=0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772 \
 L2_CONTRACT=0xf32971F66593AbBd4D032015FAa0222871895b68 \
 L2_TX_HASH=0x56b1779fb907fb1349594d417106ebc05c4f9b226703d11f4b9bb6a5f0208995 \
 npx hardhat run --network zksync scripts/waitForInclusion.js
+```
 
+Output
+
+```sh
 Waiting for L1 block inclusion (this may take up to 1 hour)...
 L2 block: 5905135
 L1 Index for Tx in block: 158
@@ -94,23 +118,35 @@ proveL2MessageInclusion: true
 
 ### Execute Message on L1
 
+Command
+
 ```sh
 GREETING="hello world" \
 L1_CONTRACT=0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772 \
 L2_CONTRACT=0xf32971F66593AbBd4D032015FAa0222871895b68 \
 L2_TX_HASH=0x56b1779fb907fb1349594d417106ebc05c4f9b226703d11f4b9bb6a5f0208995 \
 npx hardhat run --network zksync scripts/executeMessageOnL1.js
+```
 
+Output
+
+```sh
 sent tx hash 0x3b2dbbf2b65414cee1338bd1e2bce82588bf4aa86f057fc6e7651935ed43fde4
 https://goerli.etherscan.io/tx/0x3b2dbbf2b65414cee1338bd1e2bce82588bf4aa86f057fc6e7651935ed43fde4
 ```
 
 ### Get Greeting on L1
 
+Command
+
 ```sh
 L1_CONTRACT=0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772 \
 npx hardhat run --network zksync scripts/getGreetingOnL1.js
+```
 
+Output
+
+```sh
 greeting: hello world
 ```
 
