@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 import "@matterlabs/zksync-contracts/l1/contracts/zksync/interfaces/IZkSync.sol";
-import "./UnsafeBytes.sol";
+import "@matterlabs/zksync-contracts/l1/contracts/common/libraries/UnsafeBytes.sol";
 
 contract L1Contract {
     string private greeting;

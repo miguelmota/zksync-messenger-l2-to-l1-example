@@ -21,6 +21,14 @@ The L1 contract has a method `consumeMessageFromL2` that checks that the message
 - [`executeMessageOnL1.js`](./scripts/executeMessageOnL1.js)
 - [`getGreetingOnL1.js`](./scripts/getGreetingOnL1.js)
 
+## Install
+
+```sh
+git clone https://github.com/miguelmota/zksync-messenger-l2-to-l1-example.git
+cd zksync-messenger-l2-to-l1-example
+npm install
+```
+
 ### Set Signer
 
 Create `.env`
@@ -68,7 +76,9 @@ deployed to 0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772
 
 ### Send L2->L1 Message
 
-Command
+Command (replace env vars with your values)
+
+```sh
 
 ```sh
 GREETING="hello world" \
