@@ -8,7 +8,7 @@ There's two contracts; `L2Contract.sol` and `L1Contract.sol`
 
 The L2 contract has a method `sendGreetingMessageToL1` that sends a message to L1 contract to set a greeting message on L1 contract.
 
-The L1 contract has a method `consumeMessageFromL2` that checks that the message was included in L2 block using zksync `proveL2MessageInclusion` and executes `setGreeting` call on itself which can only be called if the message was send by the L2 contract.
+The L1 contract has a method `consumeMessageFromL2` that checks that the message was included in L2 block using zksync `proveL2MessageInclusion` and executes `setGreeting` call on itself which can only be called if the message was sent by the L2 contract.
 
 ### Files
 
@@ -134,7 +134,7 @@ GREETING="hello world" \
 L1_CONTRACT=0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772 \
 L2_CONTRACT=0xf32971F66593AbBd4D032015FAa0222871895b68 \
 L2_TX_HASH=0x56b1779fb907fb1349594d417106ebc05c4f9b226703d11f4b9bb6a5f0208995 \
-npx hardhat run --network zksync scripts/executeMessageOnL1.js
+npx hardhat run --network goerli scripts/executeMessageOnL1.js
 ```
 
 Output
@@ -150,7 +150,7 @@ Command
 
 ```sh
 L1_CONTRACT=0x9F2FFbF506cb803c184Ba0Cd3586e0bDFf23b772 \
-npx hardhat run --network zksync scripts/getGreetingOnL1.js
+npx hardhat run --network goerli scripts/getGreetingOnL1.js
 ```
 
 Output
