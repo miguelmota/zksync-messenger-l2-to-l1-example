@@ -12,7 +12,7 @@ async function main() {
   const l1Provider = new ethers.providers.StaticJsonRpcProvider('https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161')
   const zkSyncProvider = new Provider('https://zksync2-testnet.zksync.dev')
   const wallet = new Wallet(privateKey, l1Provider)
-  const l1ContractAbi = require('../artifacts-zk/contracts/L1Contract.sol/L1Contract.json').abi
+  const l1ContractAbi = require('../artifacts/contracts/L1Contract.sol/L1Contract.json').abi
 
   const iface = new ethers.utils.Interface(l1ContractAbi)
   const message = iface.encodeFunctionData('setGreeting', [greeting])
